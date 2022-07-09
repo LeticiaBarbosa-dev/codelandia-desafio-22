@@ -1,20 +1,52 @@
-/* font-family: 'DM Sans', sans-serif;
-font-family: 'IBM Plex Mono', monospace; */
 :root {
-    --bg-blue: #0E091B;
-    --bg-image-blue: #0E091B;
-    --text-white: #F9F9F9;
-    --text-gray: #AEAEAE;
-    -green: #04D361;
-    --border-purple: #873EFF;
+  --bg-blue: #0e091b;
+  --bg-image-blue: #0e091b;
+  --text-white: #f9f9f9;
+  --text-gray: #aeaeae;
+  --green: #04d361;
+  --border-purple: #873eff;
+  --font-primary: "IBM Plex Mono", monospace;
+  --font-secondary: "DM Sans", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: var(--bg-blue);
+  background: var(--bg-blue);
+}
+
+.bannerPrincipal {
+  margin: 6.5625rem 21.625rem;
+}
+
+.bannerPrincipal span {
+  text-transform: uppercase;
+
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  color: var(--green);
+  font-weight: 700;
+
+  line-height: 1.9375rem;
+  letter-spacing: 0.05em;
+}
+
+.bannerPrincipal h1 {
+  margin: 0.75rem 0 2rem 0;
+
+  font-family: var(--font-primary);
+  color: var(--text-white);
+  font-size: 4rem;
+  line-height: 130%;
+}
+
+.bannerPrincipal p {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    color: var(--text-gray);
+    line-height: 170%;
 }
