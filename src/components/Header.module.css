@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.875rem 21.625rem;
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: var(--text-white);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.01em;
+
+    width: 15.5rem;
+    height: 3.875rem;
+
+    padding: 21px 30px;
+    border-radius: 6px;
+}
+
+.buttonLinkedin {
+    border: 1px solid var(--border-purple);
+    margin-left: 3.875rem;
+    transition: background 0.2s;
+}
+
+.buttonLinkedin:hover {
+    background: var(--border-purple);
+}
+
+.buttonGithub {
+    background: var(--border-purple);
+    transition: border 0.2s, background 0.2s;
+}
+
+.buttonGithub:hover {
+    border: 1px solid var(--border-purple);
+    background: transparent;
+}

@@ -1,0 +1,20 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace; */
+:root {
+    --bg-blue: #0E091B;
+    --bg-image-blue: #0E091B;
+    --text-white: #F9F9F9;
+    --text-gray: #AEAEAE;
+    -green: #04D361;
+    --border-purple: #873EFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-blue);
+}
