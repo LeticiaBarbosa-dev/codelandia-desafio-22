@@ -1,0 +1,87 @@
+.card {
+    width: 37.5625rem;
+    height: 31.25rem;
+    background: var(--bg-card-blue);
+
+    padding: 1.4375rem 1.8125rem 1.625rem 1.4375rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-purple);
+    margin-right: 1.625rem;
+    margin-top: 2.5rem;
+}
+
+.card:nth-child(2n) {
+    margin-right: 0;
+}
+
+.card span {
+    font-size: 1.5rem;
+    font-family: var(--font-primary);
+    color: var(--text-white);
+    line-height: 1.9375rem;
+}
+
+.card p {
+    margin-top: 1.375rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-secondary);
+    font-size: 1.125rem;
+    color: var(--text-gray);
+    line-height: 170%;
+}
+
+.card a {
+    width: 10.3125rem;
+    height: 2.625rem;
+    padding: 0.6875rem 3.75rem;
+
+    font-family: var(--font-secondary);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+
+.cardImage {
+    width: 34.3125rem;
+    height: 13.875rem;
+    background: var(--bg-blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+}
+
+.buttonDemo {
+    background: var(--green);
+    margin-right: 1.5rem;
+
+    color: var(--bg-blue);
+
+    transition: all 0.5s;
+}
+
+.buttonDemo:hover {
+    border: 1px solid var(--green);
+    background: transparent;
+    color: var(--text-white);
+}
+
+.buttonGithub {
+    border: 1px solid var(--green);
+
+    color: var(--text-white);
+    transition: all 0.5s;
+}
+
+.buttonGithub:hover {
+    background: var(--green);
+    color: var(--bg-blue);
+    border: none;
+}

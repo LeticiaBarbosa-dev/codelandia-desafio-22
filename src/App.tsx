@@ -1,3 +1,4 @@
+import { Card } from "./components/Card";
 import { Header } from "./components/Header";
 import "./styles/global.css";
 
@@ -15,6 +16,12 @@ function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis<br />
           ligula, accumsan nec cursus in, eleifend sit amet dui.
         </p>
+      </div>
+      <div className="cardContainer">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

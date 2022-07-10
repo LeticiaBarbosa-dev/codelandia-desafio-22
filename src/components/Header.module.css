@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3.875rem 21.625rem;
+    padding: 3.875rem 3.5rem;
 }
 
 .header a {
@@ -13,7 +13,7 @@
     font-size: 0.9375rem;
     font-weight: 700;
     line-height: 1.25rem;
-    font-family: var(--font-secondary);
+    font-family: 'DM Sans', sans-serif;
     letter-spacing: 0.01em;
 
     width: 15.5rem;

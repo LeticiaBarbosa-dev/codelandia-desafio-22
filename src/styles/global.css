@@ -1,6 +1,6 @@
 :root {
   --bg-blue: #0e091b;
-  --bg-image-blue: #0e091b;
+  --bg-card-blue: #171228;
   --text-white: #f9f9f9;
   --text-gray: #aeaeae;
   --green: #04d361;
@@ -19,8 +19,22 @@ body {
   background: var(--bg-blue);
 }
 
+body::-webkit-scrollbar {
+  width: 8px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--text-gray);        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--border-purple);    
+  border-radius: 20px;       
+  height: 10px;
+}
+
 .bannerPrincipal {
-  margin: 6.5625rem 21.625rem;
+  margin: 6.5625rem 3.5rem;
 }
 
 .bannerPrincipal span {
@@ -49,4 +63,10 @@ body {
     font-size: 1.5rem;
     color: var(--text-gray);
     line-height: 170%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5.5rem 3.5rem;
 }
