@@ -26,7 +26,7 @@
 .buttonLinkedin {
     border: 1px solid var(--border-purple);
     margin-left: 3.875rem;
-    transition: background 0.2s;
+    transition: background 0.9s;
 }
 
 .buttonLinkedin:hover {
@@ -35,7 +35,8 @@
 
 .buttonGithub {
     background: var(--border-purple);
-    transition: border 0.2s, background 0.2s;
+    border: 1px solid transparent;
+    transition:all 0.9s;
 }
 
 .buttonGithub:hover {

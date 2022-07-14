@@ -63,8 +63,9 @@
     margin-right: 1.5rem;
 
     color: var(--bg-blue);
+    border: 1px solid transparent;
 
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 
 .buttonDemo:hover {
@@ -77,7 +78,7 @@
     border: 1px solid var(--green);
 
     color: var(--text-white);
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 
 .buttonGithub:hover {
