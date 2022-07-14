@@ -1,5 +1,5 @@
-import styles from './Footer.module.css';
-import simboloCodelandia from "../assets/simbolo.svg";
+import styles from '../Footer/Footer.module.css';
+import simboloCodelandia from "../../assets/simbolo.svg";
 
 export function Footer() {
   return (

@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
 
-import logoCodelandia from '../assets/logo.svg';
+import logoCodelandia from '../../assets/logo.svg';
 
 const githubUrl = 'https://github.com/LeticiaBarbosa-dev';
 const linkedinUrl = 'https://www.linkedin.com/in/leticia-pbs/';

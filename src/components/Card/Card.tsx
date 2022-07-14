@@ -1,5 +1,5 @@
 import styles from "./Card.module.css";
-import image from "../assets/image.png";
+import image from "../../assets/image.png";
 
 export function Card() {
   return (
