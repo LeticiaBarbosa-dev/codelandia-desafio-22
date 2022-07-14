@@ -14,15 +14,40 @@ function App() {
           comunidade Codelândia
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis<br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
+          <br />
           ligula, accumsan nec cursus in, eleifend sit amet dui.
         </p>
       </div>
       <div className="cardContainer">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
+          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
+          projectName="Ignite Feed"
+          demoUrl="https://ignite-feed-mu.vercel.app/"
+          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
+        />
+        <Card
+          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
+          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
+          projectName="Ignite Feed"
+          demoUrl="https://ignite-feed-mu.vercel.app/"
+          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
+        />
+        <Card
+          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
+          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
+          projectName="Ignite Feed"
+          demoUrl="https://ignite-feed-mu.vercel.app/"
+          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
+        />
+        <Card
+          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
+          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
+          projectName="Ignite Feed"
+          demoUrl="https://ignite-feed-mu.vercel.app/"
+          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
+        />
       </div>
       <Footer />
     </div>
