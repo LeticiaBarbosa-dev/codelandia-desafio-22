@@ -1,0 +1,22 @@
+.footer {
+    font-family: var(--font-primary);
+    color: var(--text-gray);
+    font-size: 1.125rem;
+    line-height: 150%;
+
+    margin-top: 8.8125rem;
+    padding: 0 5rem 3rem 3.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    margin-right: 3rem;
+}

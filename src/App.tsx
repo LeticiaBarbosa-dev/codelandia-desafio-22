@@ -1,4 +1,5 @@
 import { Card } from "./components/Card";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import "./styles/global.css";
 
@@ -23,6 +24,7 @@ function App() {
         <Card />
         <Card />
       </div>
+      <Footer />
     </div>
   );
 }

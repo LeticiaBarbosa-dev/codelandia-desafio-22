@@ -36,7 +36,7 @@
 .buttonGithub {
     background: var(--border-purple);
     border: 1px solid transparent;
-    transition:all 0.9s;
+    transition: all 0.9s;
 }
 
 .buttonGithub:hover {
