@@ -13,7 +13,7 @@ export function Card({ imageUrl, repositoryUrl, projectName, demoUrl,description
   return (
     <div className={styles.card}>
       <div className={styles.cardImage}>
-        <img src={image} alt="Imagem" />
+        <img src={imageUrl} alt="Imagem" />
       </div>
       <span>{projectName}</span>
       <p>

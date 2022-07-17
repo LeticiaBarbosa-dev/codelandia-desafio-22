@@ -10,13 +10,10 @@ function App() {
       <div className="bannerPrincipal">
         <span>comunidade dev</span>
         <h1>
-          Projetos da <br />
-          comunidade Codelândia
+          Projetos desenvolvidos com ReactJs
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
-          <br />
-          ligula, accumsan nec cursus in, eleifend sit amet dui.
+          Estes projetos foram desenvolvidos durante eventos que participei e suas tecnologias. <br />A seguir destaquei dois dos que mais gostei de desenvolver. 
         </p>
       </div>
       <div className="cardContainer">
@@ -28,25 +25,11 @@ function App() {
           description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
         />
         <Card
-          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
-          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
-          projectName="Ignite Feed"
-          demoUrl="https://ignite-feed-mu.vercel.app/"
-          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
-        />
-        <Card
-          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
-          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
-          projectName="Ignite Feed"
-          demoUrl="https://ignite-feed-mu.vercel.app/"
-          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
-        />
-        <Card
-          imageUrl="https://user-images.githubusercontent.com/78429537/177160284-c3c0e9f0-0442-419a-8419-21c56a619b11.png"
-          repositoryUrl="https://github.com/LeticiaBarbosa-dev/ignite-feed"
-          projectName="Ignite Feed"
-          demoUrl="https://ignite-feed-mu.vercel.app/"
-          description="Esta aplicação foi criada durante a trilha de ReactJs do Ignite, pela plataforma da Rocketseat."
+          imageUrl="https://user-images.githubusercontent.com/78429537/176793597-f1a91255-9046-43fa-9c98-00edf0026c24.png"
+          repositoryUrl="https://github.com/LeticiaBarbosa-dev/event-plataform"
+          projectName="Event Plataform"
+          demoUrl="https://event-plataform-sage.vercel.app/"
+          description="Esta aplicação foi criada o Ignite Lab, evento que ocorreu 19 e 26 de junho de 2022, promovo pela Rocketseat."
         />
       </div>
       <Footer />

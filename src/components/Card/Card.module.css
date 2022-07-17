@@ -58,6 +58,11 @@
     border-radius: 4px;
 }
 
+.cardImage img {
+    width: 34.3125rem;
+    height: 13.875rem;
+}
+
 .buttonDemo {
     background: var(--green);
     margin-right: 1.5rem;
