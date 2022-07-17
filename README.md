@@ -5,7 +5,7 @@
 
 <h2>💻 Descrição</h2>
 <br style="border: 1px solid #F0F0F0" /> 
-<p>Esta aplicação foi criada com base no layout criado pelo Designer Iuri Silva que possui uma comunidade que disponibiliza uma série de layouts gratuitamente como forma de desafios para quem deseja praticar desenvolvimento web. Conheça mais sobre o trabalho do Iuri clicando  <a href="https://www.instagram.com/iuricode/">aqui</a>. Na aplicação disponibilizo dois projetos de Front-End utilizando ReactJs, que podem ser acessados em tempo real e seu código fonte.</p>
+<p>Esta aplicação foi criada com base no layout criado pelo Designer Iuri Silva que possui uma comunidade chamada Codelândia que disponibiliza uma série de layouts gratuitamente como forma de desafios para quem deseja praticar desenvolvimento web. Conheça mais sobre o trabalho do Iuri clicando <a href="https://www.instagram.com/iuricode/">aqui</a>. Na aplicação disponibilizo dois projetos de Front-End utilizando ReactJs, que podem ser acessados em tempo real e seu código fonte.</p>
 
 <h2>🚀 Tecnologias</h2>
 <br style="border: 1px solid #F0F0F0" /> 
